@@ -1,3 +1,100 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box .ring{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #03692ce6;
+    animation: ani 2s linear infinite;
+    box-shadow: 0 0 10px #b2f7cae6,
+                0 0 20px #b2f7cae6,
+                0 0 30px #b2f7cae6,
+                0 0 40px #b2f7cae6,
+                0 0 50px #b2f7cae6,
+                0 0 60px #b2f7cae6,
+                0 0 70px #b2f7cae6,
+                0 0 80px #b2f7cae6,
+                0 0 90px #b2f7cae6,
+                0 0 100px #b2f7cae6;
+}
+
+@keyframes ani{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box .ring::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top, transparent, #bdf2d2e6);
+    background-size: 100px 180px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.box .ring::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #b2f7cae6;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 0 10px #b2f7cae6,
+                0 0 20px #b2f7cae6,
+                0 0 30px #b2f7cae6,
+                0 0 40px #b2f7cae6,
+                0 0 50px #b2f7cae6,
+                0 0 60px #b2f7cae6,
+                0 0 70px #b2f7cae6,
+                0 0 80px #b2f7cae6,
+                0 0 90px #b2f7cae6,
+                0 0 100px #b2f7cae6;
+}
+.box .ring span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}

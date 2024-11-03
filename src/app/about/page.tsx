@@ -1,6 +1,8 @@
 
-
-const About = () => {
+async function About(){
+  await new Promise((resolve)=>{
+    setTimeout(resolve,5000)
+  })
   return (
     <div className="w-screen h-screen">
         <div className="m-24 border-solid border-8 rounded-3xl p-4 bg-green-200 border-green-900 shadow-xl shadow-slate-400">
