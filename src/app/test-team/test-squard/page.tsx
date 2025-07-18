@@ -17,158 +17,158 @@ import abrar from "@/app/images/T_abrar.jpeg"
 
 const Test_Squard = () => {
   return (
-    <div>
-      <h1 className="text-green-900 text-4xl font-bold text-center pt-16">Test Team 2024</h1>
-      <div className="grid grid-cols-3 gap-8 justify-center w-screen h-auto pt-10 pl-28 pb-10">
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+    <div className="w-full max-w-[95%] md:max-w-[60%] m-auto py-10">
+      <h1 className="text-3xl md:text-5xl text-green-900 font-bold text-center pb-10">Test Team 2024</h1>
+      <div className="grid grid-cols-2 md:grid-cols-3 justify-center gap-2 md:gap-4">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={babar}
         alt="babar"
         width={250}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">BABAR AZAM</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">BABAR AZAM</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={rizwan}
         alt="rizwan"
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">M. RIZWAM</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">M. RIZWAM</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={shan}
         alt="shadab"
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">SHAN MASOOD</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">SHAN MASOOD</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={saud}
         alt="fakhar"
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">SAUD SHAKEEL</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">SAUD SHAKEEL</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={saim}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">SAIM AYUB</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">SAIM AYUB</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={abdullalah}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">ABDULLAH SHAFIQ</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">ABDULLAH SHAFIQ</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={hamza}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">MIR HAMZA</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">MIR HAMZA</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={huraira}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">AZAM KHAN</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">AZAM KHAN</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={noman}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">NOMAN ALI</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">NOMAN ALI</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={salman}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">SALMAN ALI AGHA</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">SALMAN ALI AGHA</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={sarfaraz}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">SARFARAZ AHMED</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">SARFARAZ AHMED</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={abrar}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">ABRAR AHMAD</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">ABRAR AHMAD</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={naseem}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">NASEEM SHAH</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">NASEEM SHAH</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={shaheen}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">SHAHEEN AFRIDI</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">SHAHEEN AFRIDI</h2>
       </div>
-      <div className="w-80 h-80 rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200">
+      <div className="w-full h-auto rounded-2xl bg-green-200 border-solid border-2 border-green-900 shadow-2xl shadow-green-200 transition duration-300 md:hover:scale-[1.03]">
         <Image 
         src={aamir}
         alt=""
         width={150}
         height={120}
-        className="w-80 h-60 rounded-t-xl rounded-b-none"
+        className="w-full h-36 md:h-60 rounded-t-xl rounded-b-none"
         />
-        <h2 className="text-green-900 text-2xl font-bold text-center pt-4">AAMIR JAMAL</h2>
+        <h2 className="text-green-900 text-[1rem] md:text-2xl font-bold text-center py-2 md:py-4">AAMIR JAMAL</h2>
       </div>
     </div>
   </div>
